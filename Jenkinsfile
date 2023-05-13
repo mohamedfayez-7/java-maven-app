@@ -14,14 +14,14 @@ pipeline {
                 }
             }
         }        
-        stage('build') {
+        stage("build") {
             steps {
                 script {
                     gv.buildApp()
                 }
             }
         }
-        stage('test') {
+        stage("test") {
             when {
                 expression {
                     params.executeTests == true
@@ -33,7 +33,7 @@ pipeline {
                 }
             }
         }
-        stage('deploy') {
+        stage("deploy") {
             steps {
                 script {
                     gv.deployApp()
