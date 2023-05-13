@@ -1,9 +1,9 @@
 def buildApp() {
-    echo "building the application..."
+    echo 'building the application...'
 } 
 
 def testApp() {
-    echo "testing the applicatopn..."
+    echo 'testing the applicatopn...'
 }
 
 def deployApp() {
