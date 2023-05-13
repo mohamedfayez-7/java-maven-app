@@ -10,7 +10,8 @@ pipeline {
         stage("init") {
             steps {
                 script {
-                    gv = load "script.groovy"
+                    def rootDir = pwd()    
+                    gv = load "${rootDir}/script.groovy"
                 }
             }
         }        
