@@ -11,7 +11,7 @@ pipeline {
             steps {
                 script { 
                     echo 'mohamed fayez'
-                    gv = load "/script.groovy"
+                    gv = load "script.groovy"
                 }
             }
         }        
