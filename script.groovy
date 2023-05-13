@@ -5,6 +5,7 @@ def buildApp() {
 def testApp() {
     echo 'testing the applicatopn...'
     echo 'doma'
+    echo 'koko'
 }
 
 def deployApp() {
