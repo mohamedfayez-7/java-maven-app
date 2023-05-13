@@ -10,8 +10,8 @@ pipeline {
         stage("init") {
             steps {
                 script { 
-                    gv = load "/script.groovy"
                     echo 'mohamed fayez'
+                    gv = load "/script.groovy"
                 }
             }
         }        
